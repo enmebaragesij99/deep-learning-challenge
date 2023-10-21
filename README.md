@@ -1,18 +1,21 @@
 # Deep-Learning-Challenge
 
-This is my Module 21 - Deep Learning challenge, which consists of one CSV file and a jupyter notebook file(located in the Credit_Risk folder), which are used together to train, create and evaluate a logistic
-regression model based on loan risk.
+This is my Module 21 - Deep Learning challenge, which consists of two jupyter notebook files and 2 HDF5 files, which are two deep learning models and their exported results.
 
 ## Contents
 
-- lending_data.csv(CSVfile)
+- AlphabetSoupCharity.ipynb(jupyter notebook file)
 
-- credit_risk_classification.ipynb(jupyter notbook file)
+- AlphabetSoupCharity_Optimisation.ipynb(jupyter notbook file)
+
+- AlphabetSoupCharity.h5(HDF5 file)
+
+- AlphabetSoupCharity_Optimisation.h5 (HDF5 file)
 
 
 ## About
 
--The historical lending activity dataset (lending_data) was spilt into training and testing datasets, then a logistic regression model was created using the original data
-(training data) and fitted on the testing data to make predictions. The model was then evaluated using a confusion matrix and its classification report.Finally, a report was 
-written describing the analysis completed by the logistic regression model, which included and overview of the analysis, results and a summary(the report is located in the jupyter
-notebook file as a markdown following the classification report).
+-Historical data from organisations that have received funding from Alphabet Soup over the years was preprocessed followed by the creation of a deep learning model and the training data was used on the model and eventually the model was evaluated using the test data in order to predict wehther applicants  will be successful if funded by Alphabet Soup. Furthermore, the model was optimised using various methods  to achieve higher than 75% accuracy.
+
+
+Note; I did receive assistance by a Learning Assitant whilst saving my model as a HDF5 file.
